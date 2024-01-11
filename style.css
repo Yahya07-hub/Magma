@@ -577,6 +577,7 @@ body {
 #main .page13 .footer-bottom .left a {
   color: #fff;
   font-size: 14px;
+  text-decoration: none;
 }
 #main .page13 .footer-bottom .left a::after {
   content: "";
