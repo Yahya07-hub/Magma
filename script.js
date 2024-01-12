@@ -838,7 +838,7 @@ tl.to(".page10 .left .inner-1, .inner-2, .inner-3, .inner-4",{
         scroller: "#main",
         start: "top 45%",
         end: "300% 45%",
-        markers: true,
+        // markers: true,
         scrub: 2,
 
 
@@ -859,39 +859,6 @@ tl.to(".page10 .left .inner-1, .inner-2, .inner-3, .inner-4",{
 
     },
 })
-// tl.to(".page10 .left .inner-3, .inner-4",{
-//     color: "#fff",
-//     // duration: 8,  
-//     stagger: 0.4,
-//     scrollTrigger: {
-//         trigger: '.page10 .left .inner-3, .inner-4',
-//         scroller: "#main",
-//         start: "top 40%",
-//         end: "150% 40%",
-//         markers: true,
-//         scrub: 3,
-
-
-//     },
-// })
-// tl.to(".page10 .left .inner-3, .inner-4",{
-//     color: "#ffffff42",
-//     // duration: 8,  
-//     stagger: 4,
-//     scrollTrigger: {
-//         trigger: '.page10 .left .inner-3, .inner-4',
-//         scroller: "#main",
-//         start: "bottom 30%",
-//         end: "230% 30%",
-//         markers: true,
-//         scrub: 3,
-
-
-//     },
-// })
-
-
-
 
 // PAGE 10 
 // CANVAS ANIMATION
