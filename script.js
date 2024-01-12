@@ -693,19 +693,19 @@ tl.to(".circle2", {
     opacity:1,
 })
 
-// tl.to(".page7 canvas, .circle", {
-//     scrollTrigger: {
-//         trigger: '.page7 canvas, .circle',
-//         scroller: "#main",
-//         start: "540% 40%",
-//         end: "560% 35%",
-//         // markers: true,
-//         scrub: 1,
-//         // pin:true
+tl.to(".page7 canvas, .circle", {
+    scrollTrigger: {
+        trigger: '.page7 canvas, .circle',
+        scroller: "#main",
+        start: "540% 40%",
+        end: "560% 35%",
+        // markers: true,
+        scrub: 1,
+        // pin:true
         
-//     },
-//     opacity: 0,
-// })
+    },
+    opacity: 0,
+})
 
 // PAGE 8
 tl.from(".page8>video", {
@@ -1057,39 +1057,3 @@ canvas3()
     
 // })
 
-// gsap.from(".circle", {
-//     scale: -1.9,
-//     duration: 5,
-//     scrollTrigger: {
-//         trigger: '.circle',
-//         scroller: "#main",
-//         start: "500% 10%",
-//         end: "500% top",
-//         markers: true,
-//         scrub: 1
-//     }
-// })
-
-// gsap.to(".page7-cir",{
-//   scrollTrigger:{
-//     trigger:`.page7-cir`,
-//     start:`top center`,
-//     end:`bottom top`,
-//     scroller:`#main`,
-//     scrub:.5
-//   },
-//   scale:1.5
-// })
-
-
-
-// gsap.to(".page7-cir-inner",{
-//   scrollTrigger:{
-//     trigger:`.page7-cir-inner`,
-//     start:`top center`,
-//     end:`bottom top`,
-//     scroller:`#main`,
-//     scrub:.5
-//   },
-//   backgroundColor : `#0a3bce91`,
-// })
