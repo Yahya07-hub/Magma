@@ -318,7 +318,6 @@ body {
   display: grid;
   grid-template-columns: 35% 65%;
   padding: 50px 85px;
-  background-color: var(--primary-color);
   color: #fff;
   font-family: a;
   overflow: visible;

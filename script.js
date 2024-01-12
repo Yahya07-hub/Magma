@@ -786,10 +786,10 @@ tl.to(".page9", {
     scrollTrigger: {
         trigger: '.page9',
         scroller: "#main",
-        start: "top 20%",
+        start: "30% 40%",
         end: "bottom bottom",
         // markers: true,
-        scrub: 1,
+        scrub: 2,
 
     },
 })
