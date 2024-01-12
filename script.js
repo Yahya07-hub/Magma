@@ -812,7 +812,7 @@ tl.from(".page9 .left p", {
 })
 
 tl.from(".page9 .right img, .bottom-text", {
-    transform: "translateY(30%)",
+    transform: "translateY(10%)",
     duration: 2,
     opacity: 0,
     stagger: 1.6,
@@ -828,6 +828,70 @@ tl.from(".page9 .right img, .bottom-text", {
 
     },
 })
+
+tl.to(".page10 .left .inner-1, .inner-2, .inner-3, .inner-4",{
+    color: "#fff",
+    // duration: 8,  
+    stagger:4,
+    scrollTrigger: {
+        trigger: '.page10 .left .inner-1, .inner-2, .inner-3, .inner-4',
+        scroller: "#main",
+        start: "top 45%",
+        end: "300% 45%",
+        markers: true,
+        scrub: 2,
+
+
+    },
+})
+tl.to(".page10 .left .inner-1, .inner-2, .inner-3, .inner-4",{
+    color: "#ffffff42",
+    // duration: 8,  
+    stagger: 0.4,
+    scrollTrigger: {
+        trigger: '.page10 .left .inner-1, .inner-2, .inner-3, .inner-4',
+        scroller: "#main",
+        start: "bottom 35%",
+        end: "400% 35%",
+        // markers: true,
+        scrub: 3,
+
+
+    },
+})
+// tl.to(".page10 .left .inner-3, .inner-4",{
+//     color: "#fff",
+//     // duration: 8,  
+//     stagger: 0.4,
+//     scrollTrigger: {
+//         trigger: '.page10 .left .inner-3, .inner-4',
+//         scroller: "#main",
+//         start: "top 40%",
+//         end: "150% 40%",
+//         markers: true,
+//         scrub: 3,
+
+
+//     },
+// })
+// tl.to(".page10 .left .inner-3, .inner-4",{
+//     color: "#ffffff42",
+//     // duration: 8,  
+//     stagger: 4,
+//     scrollTrigger: {
+//         trigger: '.page10 .left .inner-3, .inner-4',
+//         scroller: "#main",
+//         start: "bottom 30%",
+//         end: "230% 30%",
+//         markers: true,
+//         scrub: 3,
+
+
+//     },
+// })
+
+
+
 
 // PAGE 10 
 // CANVAS ANIMATION
@@ -993,6 +1057,7 @@ function canvas3() {
     });
 }
 canvas3()
+
 
 // SCROLLING
 // tl.to(".page10 .inner-page .left", {
